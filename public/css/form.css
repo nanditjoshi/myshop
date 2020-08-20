@@ -1,0 +1,381 @@
+form span {
+    color: #d90101 !important;
+    font-size: 20px !important;
+    }
+form .form-control {
+    display: block;
+    width: 100%;
+    height: 48px;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    color: #7f9195 !important;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    -webkit-transition:none;
+    -o-transition:none;
+    transition:none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+form input placeholder { 
+  color: #000;
+  
+}
+
+form .selectdiv {
+    position: relative;
+    float: left;
+    min-width: 100%;
+
+}
+
+form h4{
+      color: #6a797c;
+    font-weight: 600;
+}
+
+form .selectdiv:after {
+    content: '\f0d7';
+    font: normal normal normal 26px/1 FontAwesome;
+    color: #7f9195;
+    right: 20px;
+    top: 2px;
+    height: 47px;
+    padding: 12px 0px 0px 21px;
+    border-left: 1px solid #cccccc;
+    position: absolute;
+    pointer-events: none;
+}
+label {
+    margin-bottom: 0px;
+    width: 100%;
+    margin: 0 0 0 0;
+    font-weight: 500 !important;
+}
+/* IE11 hide native button (thanks Matt!) */
+form select::-ms-expand {
+display: none;
+}
+
+form .selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  height: 50px;
+  float: right;
+  margin: 0px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #7f9195;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #bfc8ca;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+
+  form .selectdiv input:focus {
+    outline: none !important;
+    border:1px solid #bfc8ca;
+    box-shadow:none;
+    border-radius: 0px;
+  }
+
+/***********************************
+**********************************/
+
+/* IE11 hide native button (thanks Matt!) */
+form input.input-text,  form  textarea, span.custom-select {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 34px;
+}
+form input.input-text,  form select, textarea,  form span.custom-select {
+    line-height: normal;
+    padding: 16px 35px 14px 9px;
+    background: url(../images/drop-dwon2.jpg) no-repeat right 0 #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    width: 100%;
+    min-width: 82px;
+    border: 1px solid #ccc;
+        font-weight: 600;
+    color: #7f9195;
+    margin-bottom: 15px;
+    
+}
+
+form select:focus {
+    outline: none !important;
+    border:1px solid #bfc8ca;
+    box-shadow:none;
+    border-radius: 0px;
+  }
+
+ form .selector {
+    position: relative;
+    min-width: 82px;
+    line-height: 0;
+    width: 100%;
+  }
+ form .selector select {
+    position: absolute;
+    z-index: 1;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    width: 100%;
+    -webkit-appearance: menulist-button;
+    line-height: 30px;
+}
+ form select option {
+    padding: 2px 10px;
+}
+ form .selector span.custom-select {
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ form .selector span.custom-select:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: '';
+    background: #fecc00;
+    width: 24px;
+    height: 100%;
+}
+ form .selector span.custom-select:after {
+    position: absolute;
+    right: 9px;
+    top: 15px;
+    border-top: 5px solid #fff;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    content: "";
+}
+.add-btn {
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+    margin: 0;
+    width: 50%;
+    height: 38px;
+    background-color: #f8f8f8;
+    border: 1px solid #f07d00;
+    color: #8a9597;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 10px;
+    text-align: left;
+    z-index: 5;
+}
+.add-btn:hover {background-color: #ff8501; color: #fff}
+.add-btn:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+form .add-btn span{
+    position: relative;
+    float: right;
+}
+.add-div{
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+    top: 29px;
+}
+.find-add{
+  background-color: transparent;
+    border: none;
+}
+.find-add:focus{
+   outline: none !important;
+   box-shadow: none;
+}
+
+form .panel {
+    margin-top: 20px;
+}
+form .panel-body {
+    padding: 0px;
+}
+form .blue-btn:focus{
+   outline: none !important;
+    box-shadow: none;
+}
+
+form .panel-title {
+    font-weight: 700;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #21bbef;
+    border-color: #337ab7;
+    font-weight: 600;
+}
+
+/*************************
+@media css**************/
+
+
+@media (min-width:320px) and (max-width:499px){
+
+.add-btn { bottom: 5px;line-height: 31px; font-size: 11px;}
+ form .add-btn span { display: none;}  
+
+ .add-div {
+    position: relative;
+    bottom: 17px;
+    display: inline-block;
+    top: 10px;
+}
+
+}
+
+
+
+@media (min-width:500px) and (max-width:767px){
+
+.add-btn { bottom: 5px;}
+.add-div {
+    position: relative;
+    bottom: 17px;
+    display: inline-block;
+    top: 10px;
+}
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+
+
+.add-btn { bottom: 5px;font-size: 12px;}
+.add-div{
+    top: 0px;
+}
+form .add-btn span {
+    display: none;
+}
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1200px){
+     form .add-btn span {
+    position: relative;
+    float: right;
+    bottom: 0px;
+}   
+
+.add-btn { bottom: 5px;
+    font-size: 14px;
+    line-height: 20px;}
+
+}
+
+/***************************\
+scrollable list
+************************/
+.qa-faq{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+        margin: 0 0 0 10px;
+
+}
+.qa-faq h3 {
+ display: block;
+
+}
+
+.qa-faq h3 a {
+border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 15px;
+    color: #7f9195;
+    text-decoration: none;
+
+}
+
+
+.qa-faq h3 a:hover {
+     background-color: #666;
+     color: white;
+      text-decoration: none;
+}
+
+
+.qa-faq h3 a:focus {
+    background-color: #666;
+    color: #fff;
+    text-decoration: none;
+}
+
+form input.input-text,  form select.as , textarea,  form span.custom-select {
+       line-height: normal;
+    padding: 3px 35px 26px 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    width: 100%;
+    min-width: 82px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    color: #445154;
+    margin-bottom: -1px;
+    background: none;
+    margin-top: 0px;
+    
+    
+}
+.as option {
+    color:  #445154;
+    font-weight: 700;
+
+}
+.as option:checked, .as option:hover {
+    color: white;
+    background-color:#7f9195 ;
+    font-weight: 700;
+    display: table;
+    cursor: pointer;
+}
+
+.as option:hover {
+  background-color: #7f9195; 
+} 
+.as option:focus {
+  background-color: #000; 
+}
+.as select:-internal-list-box option:checked {
+    background-color: #000; 
+    color: rgb(16, 16, 16) !important;
+} 
